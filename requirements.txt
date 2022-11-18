@@ -1,10 +1,4 @@
-boto3
-pandas 
+boto3 
 gunicorn 
-streamlit 
-sklearn 
-matplotlib 
-seaborn 
-plotly
 mlflow
 psycopg2-binary
