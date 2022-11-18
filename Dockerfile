@@ -22,8 +22,8 @@ RUN pip install -r /dependencies/requirements.txt
 # set up environment variables declared using the
 # docker run -e var_name="var_value" image_name
 # or that we will declare using heroku later
-ENV AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID
-ENV AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
+ENV AWS_ACCESS_KEY_ID_JEDHA=$AWS_ACCESS_KEY_ID_JEDHA
+ENV AWS_SECRET_ACCESS_KEY_JEDHA=$AWS_SECRET_ACCESS_KEY_JEDHA
 ENV BACKEND_STORE_URI=$BACKEND_STORE_URI
 ENV ARTIFACT_STORE_URI=$ARTIFACT_STORE_URI
 
