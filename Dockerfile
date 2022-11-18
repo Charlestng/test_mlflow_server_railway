@@ -1,12 +1,6 @@
-FROM continuumio/miniconda3
+FROM python
 
 WORKDIR /home/app
-
-RUN apt-get update
-# install nano and unzip
-RUN apt-get install nano unzip
-# install curl
-RUN apt install curl -y
 
 # install aws cli
 RUN curl -fsSL https://get.deta.dev/cli.sh | sh
