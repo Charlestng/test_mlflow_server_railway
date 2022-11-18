@@ -29,6 +29,5 @@ ENV ARTIFACT_ROOT=$ARTIFACT_ROOT
 
 # run the mlflow server in the container
 CMD mlflow server -p $PORT \
-    --host 0.0.0.0 \
     --backend-store-uri $BACKEND_STORE_URI \
     --default-artifact-root $ARTIFACT_ROOT
